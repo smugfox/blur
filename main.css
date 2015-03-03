@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow: hidden;
+}
+
+.bg {
+    margin-left: -25vw;
+    top: -25vh;
+    width: 150vw;
+    position: fixed;
+    z-index: -1;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+}
+
+body {
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, .25);
+    width: 70vw;
+    height: 70vh;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, .20);
+    position: relative;
+}
+
+aside {
+    background: #f7c660;
+    color: #fff;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+header {
+    background: #f16767;
+    height: 30%;
+    border-radius: 10px 0 0 0;
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 0;
+    border-radius: 0 0 10px 0;
+    background: #64d4f9;
+    height: 20%;
+    width: 20%;
+}
